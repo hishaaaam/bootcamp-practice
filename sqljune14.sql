@@ -78,3 +78,48 @@ ADD CONSTRAINT chk_productlocation CHECK (location IN ('Banglore', 'Delhi', 'Che
 select sum(amount) as Total from payment where mode="UPI";
 select avg(amount) as Average from payment;
 select * from products where stock=0;
+
+SELECT SUM(price) AS total_revenue 
+FROM products;
+-- 2)
+SELECT * 
+FROM products 
+WHERE price % 3 = 0;
+-- 3)
+SELECT pid, pname, price, 
+(price - (SELECT AVG(price) FROM products)) AS price_difference 
+FROM products;
+
+-- Comparison Operators:
+
+SELECT * 
+FROM products 
+WHERE price >= 25000;
+
+SELECT * 
+FROM customer 
+WHERE age != 35;
+
+SELECT * 
+FROM orders 
+WHERE amt <= 10000;
+
+-- Logical Operators:
+
+SELECT * 
+FROM products 
+WHERE location = 'Mumbai' 
+AND stock > 10;
+
+SELECT * 
+FROM customer 
+WHERE addr LIKE '%Mumbai%' 
+OR 
+(SELECT SUM(amt) 
+FROM orders o 
+WHERE o.cid = customer.cid) > 20000;
+
+SELECT * 
+FROM payment 
+WHERE mode != 'upi' 
+AND status = 'completed';
