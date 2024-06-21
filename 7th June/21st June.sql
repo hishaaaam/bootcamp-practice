@@ -8,7 +8,6 @@ SELECT * FROM customer;
 END $$
 DELIMITER ;
 
-
 -- PROCEDURES
 DELIMITER // 
 CREATE PROCEDURE select_all_products()
