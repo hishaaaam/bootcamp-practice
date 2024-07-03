@@ -1,6 +1,7 @@
 #Constructor - Special method automatically called when an object is created and is used to initialize the attributes of object
 #Deconstructor - It is a special method called del
 
+
 class Myclass:
     def __init__(self):
         print("Constructor")
