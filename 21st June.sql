@@ -1,5 +1,6 @@
 use amazon;
 
+
 -- DELIMITER COMMAND
 DELIMITER $$
 CREATE PROCEDURE get_customers()
