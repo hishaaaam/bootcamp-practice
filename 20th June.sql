@@ -1,5 +1,6 @@
 use amazon;
 
+
 -- SUBQUERIES
 -- SINGLE ROW SUBQUERIES
 SELECT cname 

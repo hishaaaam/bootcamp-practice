@@ -1,5 +1,6 @@
 use school;
 
+
 CREATE TABLE Students (
     id INT PRIMARY KEY,
     name VARCHAR(50),

@@ -1,5 +1,6 @@
 use amazon;
 
+
 -- JOINS
 -- INNER JOIN
 SELECT customer.cid, orders.oid, customer.cname, orders.amt FROM orders 

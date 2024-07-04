@@ -1,5 +1,6 @@
 use amazon;
 
+
 SELECT cname, COUNT(*) AS Number
 FROM customer
 GROUP BY cname

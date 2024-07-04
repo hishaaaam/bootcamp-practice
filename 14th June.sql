@@ -1,6 +1,7 @@
 --- Create database
 create database amazon;
 
+
 use amazon;
 
 -- Products - pid, pname, price, stock, location (Mumbai or Delhi)
