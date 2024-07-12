@@ -8,3 +8,9 @@ The Futurense Bootcamp is an intensive training program focused on developing te
 MySQL: For database management and queries.
 Python: For scripting, data analysis, and application development.
 Tkinter: For building graphical user interfaces (GUIs).
+
+📬 Contact
+If you have any questions or want to connect, feel free to reach out:
+
+Email: hishamhidaya45@gmail.com
+LinkedIn: https://www.linkedin.com/in/hisham-hidaya/
