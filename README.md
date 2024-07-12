@@ -13,4 +13,5 @@ Tkinter: For building graphical user interfaces (GUIs).
 If you have any questions or want to connect, feel free to reach out:
 
 Email: hishamhidaya45@gmail.com
+<br> 
 LinkedIn: https://www.linkedin.com/in/hisham-hidaya/
