@@ -1,4 +1,4 @@
-🎓 Futurense Bootcamp Portfolio
+## 🎓 Futurense Bootcamp Portfolio
 Welcome to my Futurense Bootcamp Portfolio! This repository showcases the skills and projects I developed during the Futurense Bootcamp, covering MySQL, Python, and Tkinter.
 
 🌟 About the Bootcamp
